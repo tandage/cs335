@@ -1,5 +1,7 @@
-const port = 33771
-const prefix = `http://localhost:${port}/`
+// const port = 33771
+// const prefix = `http://localhost:${port}/`
+const prefix = "https://6n9uz.sse.codesandbox.io/"
+
 
 export const fetch_data = async (subUrl,method="POST",params,) => {
     const url = `${prefix}${subUrl}`
